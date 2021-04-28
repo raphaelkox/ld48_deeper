@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class player : MonoBehaviour
+public class Player : MonoBehaviour
 {
     const float stop_mass = 0.7055434f;
     const float up_mass = 0.63f;
@@ -13,6 +14,10 @@ public class player : MonoBehaviour
     public float external_pressure;
     public float internal_pressure;
     public float pressure_difference;
+
+    public UnityEvent OnMoveForward;
+    public UnityEvent OnMoveBackward;
+    public UnityEvent OnMoveNeutral;
 
     void Start()
     {
@@ -31,6 +36,19 @@ public class player : MonoBehaviour
     
         var velY = rb.velocity.y;
         var velX = Input.GetAxis("Horizontal") * speed;
+
+        if(velX == 0) {
+            OnMoveNeutral?.Invoke();
+        }
+        else {
+            if(velX > 0) {
+                OnMoveForward?.Invoke();
+            }
+            else {
+                OnMoveBackward?.Invoke();
+            }
+        }
+
         rb.velocity = new Vector2(velX, velY);
     }
 }
