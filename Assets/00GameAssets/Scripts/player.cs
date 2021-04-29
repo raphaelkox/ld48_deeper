@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     public UnityEvent OnMoveForward;
     public UnityEvent OnMoveBackward;
     public UnityEvent OnMoveNeutral;
+    public UnityEvent OnExplosion;
 
     public float externalX;
     public float externalXdamp;
@@ -39,23 +40,24 @@ public class Player : MonoBehaviour
     
         var velY = rb.velocity.y;
         var velX = Input.GetAxis("Horizontal") * speed;
-        velX += externalX;
 
-        if(Mathf.Abs(externalX) > 0) {
-            externalX -= Mathf.Sign(externalX) * externalXdamp * Time.deltaTime;
-        }
-
-        if(velX == 0) {
+        if (velX == 0) {
             OnMoveNeutral?.Invoke();
         }
         else {
-            if(velX > 0) {
+            if (velX > 0) {
                 OnMoveForward?.Invoke();
             }
             else {
                 OnMoveBackward?.Invoke();
             }
         }
+
+        velX += externalX;
+
+        if(Mathf.Abs(externalX) > 0) {
+            externalX -= Mathf.Sign(externalX) * externalXdamp * Time.deltaTime;
+        }        
 
         rb.velocity = new Vector2(velX, velY);
     }
@@ -71,6 +73,8 @@ public class Player : MonoBehaviour
             else {
                 externalX = force;
             }
+
+            OnExplosion?.Invoke();
         }
     }
 }
