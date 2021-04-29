@@ -5,6 +5,9 @@ using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
+    const float max_pressure = 110f;
+    const float max_depth = 32f;
+
     const float stop_mass = 0.7055434f;
     const float up_mass = 0.63f;
     const float down_mass = 0.8f;
@@ -14,6 +17,7 @@ public class Player : MonoBehaviour
     public float external_pressure;
     public float internal_pressure;
     public float pressure_difference;
+    public float pressure_max_delta;
 
     public UnityEvent OnMoveForward;
     public UnityEvent OnMoveBackward;
@@ -33,7 +37,13 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var dir = Input.GetAxis("Vertical");
+        external_pressure = -transform.position.y / max_depth * max_pressure;
+        pressure_difference = Mathf.Abs(external_pressure - internal_pressure);
+
+        var pressure_control = Input.GetAxis("Vertical");
+        internal_pressure += pressure_control * pressure_max_delta * Time.deltaTime;
+
+        var dir = pressure_difference < 1f ? 0f : external_pressure < internal_pressure ? 1f : -1f;
         var targetMass = dir == 0 ? stop_mass : dir < 0 ? down_mass : up_mass;
         currentMass = Mathf.MoveTowards(currentMass, targetMass, 0.001f);
         rb.mass = currentMass;
