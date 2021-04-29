@@ -19,6 +19,9 @@ public class Player : MonoBehaviour
     public UnityEvent OnMoveBackward;
     public UnityEvent OnMoveNeutral;
 
+    public float externalX;
+    public float externalXdamp;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -36,6 +39,11 @@ public class Player : MonoBehaviour
     
         var velY = rb.velocity.y;
         var velX = Input.GetAxis("Horizontal") * speed;
+        velX += externalX;
+
+        if(Mathf.Abs(externalX) > 0) {
+            externalX -= Mathf.Sign(externalX) * externalXdamp * Time.deltaTime;
+        }
 
         if(velX == 0) {
             OnMoveNeutral?.Invoke();
@@ -50,5 +58,19 @@ public class Player : MonoBehaviour
         }
 
         rb.velocity = new Vector2(velX, velY);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.collider.CompareTag("explosion")) {
+            var explosion = collision.collider.GetComponent<Charge_explosion>();
+            var force = explosion.end_scale - explosion.transform.localScale.x; 
+
+            if(collision.GetContact(0).point.x > transform.position.x) {
+                externalX = -force;
+            }
+            else {
+                externalX = force;
+            }
+        }
     }
 }
