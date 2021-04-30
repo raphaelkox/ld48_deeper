@@ -9,8 +9,10 @@ public class Player : MonoBehaviour
     const float max_depth = 32f;
 
     const float stop_mass = 0.7055434f;
-    const float up_mass = 0.63f;
-    const float down_mass = 0.8f;
+    //const float up_mass = 0.63f;
+    //const float down_mass = 0.8f;
+    const float up_mass = 0.53f;
+    const float down_mass = 0.9f;
     public float speed;
     public Rigidbody2D rb;
     public float currentMass;
@@ -32,18 +34,22 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentMass = stop_mass;
         rb.mass = currentMass;
+
+        external_pressure = -transform.position.y / max_depth * max_pressure;
+        internal_pressure = external_pressure;
     }
 
     // Update is called once per frame
     void Update()
     {
         external_pressure = -transform.position.y / max_depth * max_pressure;
-        pressure_difference = Mathf.Abs(external_pressure - internal_pressure);
+        pressure_difference = external_pressure - internal_pressure;
 
         var pressure_control = Input.GetAxis("Vertical");
         internal_pressure += pressure_control * pressure_max_delta * Time.deltaTime;
+        internal_pressure = Mathf.Clamp(internal_pressure, 0f, max_pressure * 2f);
 
-        var dir = pressure_difference < 1f ? 0f : external_pressure < internal_pressure ? 1f : -1f;
+        var dir = Mathf.Abs(pressure_difference) < 1f ? 0f : external_pressure < internal_pressure ? 1f : -1f;
         var targetMass = dir == 0 ? stop_mass : dir < 0 ? down_mass : up_mass;
         currentMass = Mathf.MoveTowards(currentMass, targetMass, 0.001f);
         rb.mass = currentMass;

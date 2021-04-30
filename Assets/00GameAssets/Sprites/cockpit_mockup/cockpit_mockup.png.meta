@@ -26,6 +26,39 @@ TextureImporter:
   - first:
       213: 971234240434194134
     second: cockpit_mockup7
+  - first:
+      213: 1396562555702833067
+    second: cockpit_mockup00
+  - first:
+      213: -4617836925096804327
+    second: cockpit_mockup01
+  - first:
+      213: 1771321908387074930
+    second: cockpit_mockup02
+  - first:
+      213: -3770369136916893936
+    second: cockpit_mockup03
+  - first:
+      213: -3934197231009104216
+    second: cockpit_mockup04
+  - first:
+      213: 3595487055692054116
+    second: cockpit_mockup05
+  - first:
+      213: 7221457575097927387
+    second: cockpit_mockup06
+  - first:
+      213: 8493808310025906825
+    second: cockpit_mockup07
+  - first:
+      213: -5185005119339145140
+    second: cockpit_mockup08
+  - first:
+      213: 3402759999402826874
+    second: cockpit_mockup09
+  - first:
+      213: 7870636778155065237
+    second: cockpit_mockup10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -103,7 +136,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cockpit_mockup0
+      name: cockpit_mockup00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 649
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf674fbe36916310800000000000000
+      internalID: 1396562555702833067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup01
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 649
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9104ce078c52aefb0800000000000000
+      internalID: -4617836925096804327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup02
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 649
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273574c04eff49810800000000000000
+      internalID: 1771321908387074930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup03
       rect:
         serializedVersion: 2
         x: 1
@@ -117,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 180975f4355226fb0800000000000000
-      internalID: -4656118025004019583
+      spriteID: 01fe8f90f35fcabc0800000000000000
+      internalID: -3770369136916893936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockpit_mockup1
+      name: cockpit_mockup04
       rect:
         serializedVersion: 2
         x: 243
@@ -138,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0b7dedc0fca14e30800000000000000
-      internalID: 4486056854084745999
+      spriteID: 8ae7061767ce669c0800000000000000
+      internalID: -3934197231009104216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockpit_mockup2
+      name: cockpit_mockup05
       rect:
         serializedVersion: 2
         x: 485
@@ -159,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cdfb2fd46f527040800000000000000
-      internalID: 4643879052617973186
+      spriteID: 46e3a0d6d6cb5e130800000000000000
+      internalID: 3595487055692054116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockpit_mockup3
+      name: cockpit_mockup06
       rect:
         serializedVersion: 2
         x: 1
@@ -180,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2017a4936a9a1aea0800000000000000
-      internalID: -5863218708468829950
+      spriteID: bd604445765c73460800000000000000
+      internalID: 7221457575097927387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockpit_mockup4
+      name: cockpit_mockup07
       rect:
         serializedVersion: 2
         x: 243
@@ -201,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 083ff2d4ea3c408f0800000000000000
-      internalID: -575119699009866880
+      spriteID: 98aea55e7a110e570800000000000000
+      internalID: 8493808310025906825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockpit_mockup5
+      name: cockpit_mockup08
       rect:
         serializedVersion: 2
         x: 485
@@ -222,14 +318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c86d9b8201d861c0800000000000000
-      internalID: -4510125217949062974
+      spriteID: c485537b0592b08b0800000000000000
+      internalID: -5185005119339145140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockpit_mockup6
+      name: cockpit_mockup09
       rect:
         serializedVersion: 2
         x: 1
@@ -243,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bbc069e5819605a0800000000000000
-      internalID: -6555392203259065423
+      spriteID: a7c505cd038093f20800000000000000
+      internalID: 3402759999402826874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cockpit_mockup7
+      name: cockpit_mockup10
       rect:
         serializedVersion: 2
         x: 243
@@ -264,8 +360,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d6c6c655648a7d00800000000000000
-      internalID: 971234240434194134
+      spriteID: 59fbe06037e1a3d60800000000000000
+      internalID: 7870636778155065237
       vertices: []
       indices: 
       edges: []
