@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 
 public class Player : MonoBehaviour
@@ -29,6 +30,8 @@ public class Player : MonoBehaviour
     public float externalX;
     public float externalXdamp;
 
+    public RectTransform depth_indicator;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -42,7 +45,9 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        external_pressure = -transform.position.y / max_depth * max_pressure;
+        var depth_normalized = -transform.position.y / max_depth;
+        depth_indicator.anchoredPosition = new Vector2(0, (depth_normalized * 50f) * -1f);
+        external_pressure = depth_normalized * max_pressure;
         pressure_difference = external_pressure - internal_pressure;
 
         var pressure_control = Input.GetAxis("Vertical");
@@ -75,7 +80,7 @@ public class Player : MonoBehaviour
             externalX -= Mathf.Sign(externalX) * externalXdamp * Time.deltaTime;
         }        
 
-        rb.velocity = new Vector2(velX, velY);
+        rb.velocity = new Vector2(velX, velY);       
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
