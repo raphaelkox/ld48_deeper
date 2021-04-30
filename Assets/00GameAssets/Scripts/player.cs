@@ -5,8 +5,8 @@ using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
-    const float max_pressure = 110f;
-    const float max_depth = 32f;
+    public float max_pressure = 110f;
+    public float max_depth = 32f;
 
     const float stop_mass = 0.7055434f;
     //const float up_mass = 0.63f;
