@@ -15,8 +15,6 @@ public class PressureDiffMeter : MonoBehaviour
     public float low_thres;
     public float high_thres;
 
-    public Player player;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -26,19 +24,19 @@ public class PressureDiffMeter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Mathf.Abs(player.pressure_difference) < center_thres) {
+        if(Mathf.Abs(PressureSystem.pressure_difference) < center_thres) {
             pressure_meter.sprite = center;
         }
-        else if(player.pressure_difference < low_thres) {
+        else if(PressureSystem.pressure_difference < low_thres) {
             pressure_meter.sprite = very_low;
         }
-        else if (player.pressure_difference < 0) {
+        else if (PressureSystem.pressure_difference < 0) {
             pressure_meter.sprite = low;
         }
-        else if (player.pressure_difference > high_thres) {
+        else if (PressureSystem.pressure_difference > high_thres) {
             pressure_meter.sprite = very_high;
         }
-        else if (player.pressure_difference > 0) {
+        else if (PressureSystem.pressure_difference > 0) {
             pressure_meter.sprite = high;
         }
     }
