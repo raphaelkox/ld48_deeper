@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Lean.Pool;
 
-public class Radar_Sensor : MonoBehaviour
+public class RadarSensor : MonoBehaviour
 {
     public GameObject RadarPoint;
     public Transform RadarUI;
@@ -12,12 +12,20 @@ public class Radar_Sensor : MonoBehaviour
     public List<Transform> charges = new List<Transform>();
     public List<Transform> radar_points = new List<Transform>();
     public float scale;
+    public float radius;
 
-    private void Update() {
-        for (int i = 0; i < charges.Count - 1; i++) {
+    private void Start() {
+        radius = GetComponent<CircleCollider2D>().radius / 2f;
+    }
+
+    private void Update() { 
+        for (int i = 0; i < charges.Count; i++) {
             var dist = charges[i].position - player.position;
-            dist /= 5f;
-            radar_points[i].localPosition = dist * scale;
+            Debug.Log("CP: " + charges[i].position);
+            Debug.Log("P: " + player.position);
+            var dir = dist.normalized;
+            var ratio = dist.magnitude / radius;
+            radar_points[i].localPosition = dir * ratio * scale;
         }
     }
 
