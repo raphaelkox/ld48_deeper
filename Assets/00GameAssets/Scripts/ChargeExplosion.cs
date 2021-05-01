@@ -4,7 +4,7 @@ using UnityEngine;
 using DG.Tweening;
 using Lean.Pool;
 
-public class Charge_explosion : MonoBehaviour
+public class ChargeExplosion : MonoBehaviour
 {
     Vector3 start_scale = new Vector3(0.1f, 0.1f, 1f);
     public float end_scale = 3f;

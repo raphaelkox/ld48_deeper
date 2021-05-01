@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.collider.CompareTag("explosion")) {
-            var explosion = collision.collider.GetComponent<Charge_explosion>();
+            var explosion = collision.collider.GetComponent<ChargeExplosion>();
             var force = explosion.end_scale - explosion.transform.localScale.x; 
 
             if(collision.GetContact(0).point.x > transform.position.x) {
