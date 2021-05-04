@@ -17,7 +17,7 @@ public class DepthCharge : MonoBehaviour
     }
 
     void Explode() {
-        //LeanPool.Spawn(explosion, transform.position, Quaternion.identity);
+        LeanPool.Spawn(explosion, transform.position, Quaternion.identity);
         LeanPool.Despawn(gameObject);
     }
 }

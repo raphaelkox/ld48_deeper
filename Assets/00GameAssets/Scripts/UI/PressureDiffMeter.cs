@@ -24,7 +24,10 @@ public class PressureDiffMeter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Mathf.Abs(PressureSystem.pressure_difference) < center_thres) {
+        low_thres = PressureSystem.explode_test;
+        high_thres = PressureSystem.implode_test;
+
+        if (Mathf.Abs(PressureSystem.pressure_difference) < center_thres) {
             pressure_meter.sprite = center;
         }
         else if(PressureSystem.pressure_difference < low_thres) {

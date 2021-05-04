@@ -21,8 +21,6 @@ public class RadarSensor : MonoBehaviour
     private void Update() { 
         for (int i = 0; i < charges.Count; i++) {
             var dist = charges[i].position - player.position;
-            Debug.Log("CP: " + charges[i].position);
-            Debug.Log("P: " + player.position);
             var dir = dist.normalized;
             var ratio = dist.magnitude / radius;
             radar_points[i].localPosition = dir * ratio * scale;

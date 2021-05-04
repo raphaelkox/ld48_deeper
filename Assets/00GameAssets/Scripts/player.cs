@@ -40,7 +40,6 @@ public class Player : MonoBehaviour
     {
         PressureSystem.Update(transform.position.y);
 
-//        depth_indicator.anchoredPosition = new Vector2(0, (PressureSystem.depth_normalized * 50f) * -1f);
         currentMass = Mathf.MoveTowards(currentMass, PressureSystem.CalculateMass(vertical_dir), 0.001f);
         rb.mass = currentMass;
     
