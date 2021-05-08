@@ -1,0 +1,864 @@
+fileFormatVersion: 2
+guid: c08382ca37b5a284f9ee3e7b4aaa95f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -152852329565605991
+    second: cockpit_mockup200
+  - first:
+      213: 562253768465764366
+    second: cockpit_mockup201
+  - first:
+      213: 2326407587150937866
+    second: cockpit_mockup202
+  - first:
+      213: -6534904846535747534
+    second: cockpit_mockup203
+  - first:
+      213: -9168065152826814837
+    second: cockpit_mockup204
+  - first:
+      213: -3295875894869959291
+    second: cockpit_mockup205
+  - first:
+      213: 7157150387536397033
+    second: cockpit_mockup206
+  - first:
+      213: -2669083354616879747
+    second: cockpit_mockup207
+  - first:
+      213: 7586252268176337394
+    second: cockpit_mockup208
+  - first:
+      213: 2946969997757903211
+    second: cockpit_mockup209
+  - first:
+      213: -7310602726604018095
+    second: cockpit_mockup210
+  - first:
+      213: 4467568920780488721
+    second: cockpit_mockup211
+  - first:
+      213: -705072467083522304
+    second: cockpit_mockup212
+  - first:
+      213: 4434771348102279246
+    second: cockpit_mockup213
+  - first:
+      213: -74089698540851362
+    second: cockpit_mockup214
+  - first:
+      213: 3634135936217787517
+    second: cockpit_mockup215
+  - first:
+      213: 3576632419085674029
+    second: cockpit_mockup216
+  - first:
+      213: -5400682748042574099
+    second: cockpit_mockup217
+  - first:
+      213: -8538252405361924524
+    second: cockpit_mockup218
+  - first:
+      213: 8422769617634721700
+    second: cockpit_mockup219
+  - first:
+      213: 98515327544575265
+    second: cockpit_mockup220
+  - first:
+      213: -5265870724720661020
+    second: cockpit_mockup221
+  - first:
+      213: -2295443940370969310
+    second: cockpit_mockup222
+  - first:
+      213: 2620342074560150162
+    second: cockpit_mockup223
+  - first:
+      213: 885430748563201218
+    second: cockpit_mockup224
+  - first:
+      213: 3121784910929334229
+    second: cockpit_mockup225
+  - first:
+      213: -7688820400612082889
+    second: cockpit_mockup226
+  - first:
+      213: -721471332223154863
+    second: cockpit_mockup227
+  - first:
+      213: -7215925503122261226
+    second: cockpit_mockup228
+  - first:
+      213: 7032819942053779868
+    second: cockpit_mockup229
+  - first:
+      213: 559672030925658171
+    second: cockpit_mockup230
+  - first:
+      213: 5210076922066908251
+    second: cockpit_mockup231
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cockpit_mockup200
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 973
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fa629bd95f0edf0800000000000000
+      internalID: -152852329565605991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup201
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 973
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00d60fc2d68dc700800000000000000
+      internalID: 562253768465764366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup202
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 973
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fb7eaef5f094020800000000000000
+      internalID: 2326407587150937866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup203
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 973
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238124d5aaa5f45a0800000000000000
+      internalID: -6534904846535747534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup204
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 973
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ece18615d74c080800000000000000
+      internalID: -9168065152826814837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup205
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 811
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dd08ef552b242d0800000000000000
+      internalID: -3295875894869959291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup206
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 811
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e208257b5e435360800000000000000
+      internalID: 7157150387536397033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup207
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 811
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75272494d285fad0800000000000000
+      internalID: -2669083354616879747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup208
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 811
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9e6258e38c74960800000000000000
+      internalID: 7586252268176337394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup209
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 811
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61f718699db5e820800000000000000
+      internalID: 2946969997757903211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup210
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 649
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ee3caad858b8a90800000000000000
+      internalID: -7310602726604018095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup211
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 649
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11042b4634efffd30800000000000000
+      internalID: 4467568920780488721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup212
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 649
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f049aa3541736f0800000000000000
+      internalID: -705072467083522304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup213
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 649
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4077bf6b097b8d30800000000000000
+      internalID: 4434771348102279246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup214
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 649
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fe4fccfc7c8fef0800000000000000
+      internalID: -74089698540851362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup215
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 487
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c2eb7216b0f6230800000000000000
+      internalID: 3634135936217787517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup216
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 487
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d266fbf3c30c2a130800000000000000
+      internalID: 3576632419085674029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup217
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 487
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6875a97abec05b0800000000000000
+      internalID: -5400682748042574099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup218
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 487
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45627c7cca8028980800000000000000
+      internalID: -8538252405361924524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup219
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 487
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aff11c6750b3e470800000000000000
+      internalID: 8422769617634721700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup220
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 325
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125c93f1b2ffd5100800000000000000
+      internalID: 98515327544575265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup221
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 325
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed65e3c97edbe6b0800000000000000
+      internalID: -5265870724720661020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup222
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 325
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d8d54e5e1f420e0800000000000000
+      internalID: -2295443940370969310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup223
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 325
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29afa20db335d5420800000000000000
+      internalID: 2620342074560150162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup224
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 325
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc5159139ea94c00800000000000000
+      internalID: 885430748563201218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup225
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df0e1926dec25b20800000000000000
+      internalID: 3121784910929334229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup226
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 163
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b7dbf2592db4590800000000000000
+      internalID: -7688820400612082889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup227
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 163
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155063755a1dcf5f0800000000000000
+      internalID: -721471332223154863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup228
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 163
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b37bc8cf1ebdb90800000000000000
+      internalID: -7215925503122261226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup229
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 163
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99166fc978999160800000000000000
+      internalID: 7032819942053779868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup230
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b389b023fba54c700800000000000000
+      internalID: 559672030925658171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup231
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5432404b59ed4840800000000000000
+      internalID: 5210076922066908251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

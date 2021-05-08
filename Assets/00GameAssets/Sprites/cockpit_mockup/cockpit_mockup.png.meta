@@ -59,6 +59,12 @@ TextureImporter:
   - first:
       213: 7870636778155065237
     second: cockpit_mockup10
+  - first:
+      213: 1899150890407869654
+    second: cockpit_mockup11
+  - first:
+      213: -6352997642012751744
+    second: cockpit_mockup12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -362,6 +368,48 @@ TextureImporter:
       bones: []
       spriteID: 59fbe06037e1a3d60800000000000000
       internalID: 7870636778155065237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup11
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 163
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcb0a53ca32b5a10800000000000000
+      internalID: 1899150890407869654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0888fe0ed4e95d7a0800000000000000
+      internalID: -6352997642012751744
       vertices: []
       indices: 
       edges: []
