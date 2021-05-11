@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using DG.Tweening;
 
 public class Cockpit : MonoBehaviour
 {
     public Transform cockpitBase;
     public RectTransform depthIndicator;
-    public SpriteRenderer dangerLight;
+    public Image dangerLight;
     public SpriteRenderer window;
     public Gradient seaColors;
 
