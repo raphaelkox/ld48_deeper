@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PressureDiffMeter : MonoBehaviour
 {
-    SpriteRenderer pressure_meter;
+    Image pressure_meter;
     public Sprite very_low;
     public Sprite low;
     public Sprite center;
@@ -18,7 +19,7 @@ public class PressureDiffMeter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pressure_meter = GetComponent<SpriteRenderer>();
+        pressure_meter = GetComponent<Image>();
     }
 
     // Update is called once per frame

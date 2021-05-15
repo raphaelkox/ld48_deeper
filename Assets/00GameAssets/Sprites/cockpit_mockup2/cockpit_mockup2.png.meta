@@ -98,6 +98,27 @@ TextureImporter:
   - first:
       213: 5210076922066908251
     second: cockpit_mockup231
+  - first:
+      213: -4159703045472113891
+    second: cockpit_mockup232
+  - first:
+      213: -6560679920812317764
+    second: cockpit_mockup233
+  - first:
+      213: -4897291062546676240
+    second: cockpit_mockup234
+  - first:
+      213: -6295584049533296398
+    second: cockpit_mockup235
+  - first:
+      213: -7243232835552069293
+    second: cockpit_mockup236
+  - first:
+      213: -3170377795742787049
+    second: cockpit_mockup237
+  - first:
+      213: 6738954112707947473
+    second: cockpit_mockup238
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -179,7 +200,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 973
+        y: 1135
         width: 240
         height: 160
       alignment: 0
@@ -200,7 +221,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 243
-        y: 973
+        y: 1135
         width: 240
         height: 160
       alignment: 0
@@ -221,7 +242,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 485
-        y: 973
+        y: 1135
         width: 240
         height: 160
       alignment: 0
@@ -242,7 +263,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 727
-        y: 973
+        y: 1135
         width: 240
         height: 160
       alignment: 0
@@ -263,7 +284,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 969
-        y: 973
+        y: 1135
         width: 240
         height: 160
       alignment: 0
@@ -283,8 +304,8 @@ TextureImporter:
       name: cockpit_mockup205
       rect:
         serializedVersion: 2
-        x: 1
-        y: 811
+        x: 1211
+        y: 1135
         width: 240
         height: 160
       alignment: 0
@@ -304,8 +325,8 @@ TextureImporter:
       name: cockpit_mockup206
       rect:
         serializedVersion: 2
-        x: 243
-        y: 811
+        x: 1
+        y: 973
         width: 240
         height: 160
       alignment: 0
@@ -325,8 +346,8 @@ TextureImporter:
       name: cockpit_mockup207
       rect:
         serializedVersion: 2
-        x: 485
-        y: 811
+        x: 243
+        y: 973
         width: 240
         height: 160
       alignment: 0
@@ -346,8 +367,8 @@ TextureImporter:
       name: cockpit_mockup208
       rect:
         serializedVersion: 2
-        x: 727
-        y: 811
+        x: 485
+        y: 973
         width: 240
         height: 160
       alignment: 0
@@ -367,8 +388,8 @@ TextureImporter:
       name: cockpit_mockup209
       rect:
         serializedVersion: 2
-        x: 969
-        y: 811
+        x: 727
+        y: 973
         width: 240
         height: 160
       alignment: 0
@@ -388,8 +409,8 @@ TextureImporter:
       name: cockpit_mockup210
       rect:
         serializedVersion: 2
-        x: 1
-        y: 649
+        x: 969
+        y: 973
         width: 240
         height: 160
       alignment: 0
@@ -409,8 +430,8 @@ TextureImporter:
       name: cockpit_mockup211
       rect:
         serializedVersion: 2
-        x: 243
-        y: 649
+        x: 1211
+        y: 973
         width: 240
         height: 160
       alignment: 0
@@ -430,8 +451,8 @@ TextureImporter:
       name: cockpit_mockup212
       rect:
         serializedVersion: 2
-        x: 485
-        y: 649
+        x: 1
+        y: 811
         width: 240
         height: 160
       alignment: 0
@@ -451,8 +472,8 @@ TextureImporter:
       name: cockpit_mockup213
       rect:
         serializedVersion: 2
-        x: 727
-        y: 649
+        x: 243
+        y: 811
         width: 240
         height: 160
       alignment: 0
@@ -472,8 +493,8 @@ TextureImporter:
       name: cockpit_mockup214
       rect:
         serializedVersion: 2
-        x: 969
-        y: 649
+        x: 485
+        y: 811
         width: 240
         height: 160
       alignment: 0
@@ -493,8 +514,8 @@ TextureImporter:
       name: cockpit_mockup215
       rect:
         serializedVersion: 2
-        x: 1
-        y: 487
+        x: 727
+        y: 811
         width: 240
         height: 160
       alignment: 0
@@ -514,8 +535,8 @@ TextureImporter:
       name: cockpit_mockup216
       rect:
         serializedVersion: 2
-        x: 243
-        y: 487
+        x: 969
+        y: 811
         width: 240
         height: 160
       alignment: 0
@@ -535,8 +556,8 @@ TextureImporter:
       name: cockpit_mockup217
       rect:
         serializedVersion: 2
-        x: 485
-        y: 487
+        x: 1211
+        y: 811
         width: 240
         height: 160
       alignment: 0
@@ -556,8 +577,8 @@ TextureImporter:
       name: cockpit_mockup218
       rect:
         serializedVersion: 2
-        x: 727
-        y: 487
+        x: 1
+        y: 649
         width: 240
         height: 160
       alignment: 0
@@ -577,8 +598,8 @@ TextureImporter:
       name: cockpit_mockup219
       rect:
         serializedVersion: 2
-        x: 969
-        y: 487
+        x: 243
+        y: 649
         width: 240
         height: 160
       alignment: 0
@@ -598,8 +619,8 @@ TextureImporter:
       name: cockpit_mockup220
       rect:
         serializedVersion: 2
-        x: 1
-        y: 325
+        x: 485
+        y: 649
         width: 240
         height: 160
       alignment: 0
@@ -619,8 +640,8 @@ TextureImporter:
       name: cockpit_mockup221
       rect:
         serializedVersion: 2
-        x: 243
-        y: 325
+        x: 727
+        y: 649
         width: 240
         height: 160
       alignment: 0
@@ -640,8 +661,8 @@ TextureImporter:
       name: cockpit_mockup222
       rect:
         serializedVersion: 2
-        x: 485
-        y: 325
+        x: 969
+        y: 649
         width: 240
         height: 160
       alignment: 0
@@ -661,8 +682,8 @@ TextureImporter:
       name: cockpit_mockup223
       rect:
         serializedVersion: 2
-        x: 727
-        y: 325
+        x: 1211
+        y: 649
         width: 240
         height: 160
       alignment: 0
@@ -682,8 +703,8 @@ TextureImporter:
       name: cockpit_mockup224
       rect:
         serializedVersion: 2
-        x: 969
-        y: 325
+        x: 1
+        y: 487
         width: 240
         height: 160
       alignment: 0
@@ -703,8 +724,8 @@ TextureImporter:
       name: cockpit_mockup225
       rect:
         serializedVersion: 2
-        x: 1
-        y: 163
+        x: 243
+        y: 487
         width: 240
         height: 160
       alignment: 0
@@ -724,8 +745,8 @@ TextureImporter:
       name: cockpit_mockup226
       rect:
         serializedVersion: 2
-        x: 243
-        y: 163
+        x: 485
+        y: 487
         width: 240
         height: 160
       alignment: 0
@@ -745,8 +766,8 @@ TextureImporter:
       name: cockpit_mockup227
       rect:
         serializedVersion: 2
-        x: 485
-        y: 163
+        x: 727
+        y: 487
         width: 240
         height: 160
       alignment: 0
@@ -766,8 +787,8 @@ TextureImporter:
       name: cockpit_mockup228
       rect:
         serializedVersion: 2
-        x: 727
-        y: 163
+        x: 969
+        y: 487
         width: 240
         height: 160
       alignment: 0
@@ -787,8 +808,8 @@ TextureImporter:
       name: cockpit_mockup229
       rect:
         serializedVersion: 2
-        x: 969
-        y: 163
+        x: 1211
+        y: 487
         width: 240
         height: 160
       alignment: 0
@@ -809,7 +830,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 1
+        y: 325
         width: 240
         height: 160
       alignment: 0
@@ -830,7 +851,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 243
-        y: 1
+        y: 325
         width: 240
         height: 160
       alignment: 0
@@ -842,6 +863,153 @@ TextureImporter:
       bones: []
       spriteID: b5432404b59ed4840800000000000000
       internalID: 5210076922066908251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup232
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 325
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b26838e14c546c0800000000000000
+      internalID: -4159703045472113891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup233
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 325
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3a1fa3f58c3f4a0800000000000000
+      internalID: -6560679920812317764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup234
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 325
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5c53fb9b3590cb0800000000000000
+      internalID: -4897291062546676240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup235
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 325
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0e3f199a791a8a0800000000000000
+      internalID: -6295584049533296398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup236
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3593973cc1eda7b90800000000000000
+      internalID: -7243232835552069293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup237
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 163
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a17f0313e8004d0800000000000000
+      internalID: -3170377795742787049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpit_mockup238
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 163
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db6d9d9f03958d50800000000000000
+      internalID: 6738954112707947473
       vertices: []
       indices: 
       edges: []

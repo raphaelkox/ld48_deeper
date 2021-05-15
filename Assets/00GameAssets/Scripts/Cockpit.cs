@@ -9,7 +9,7 @@ public class Cockpit : MonoBehaviour
     public Transform cockpitBase;
     public RectTransform depthIndicator;
     public Image dangerLight;
-    public SpriteRenderer window;
+    public Image window;
     public Gradient seaColors;
 
     public float shakeDuration;

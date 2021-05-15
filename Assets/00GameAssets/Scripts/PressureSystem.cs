@@ -74,7 +74,8 @@ public static class PressureSystem
             }
         }
 
-        var pressure_control = Input.GetAxis("Vertical");
+        var pressure_control = Input.GetAxis("Vertical") + PressureValveMobileUI.valve_value;
+        pressure_control = Mathf.Clamp(pressure_control, -1f, 1f);
         internal_pressure += pressure_control * pressure_max_delta * Time.deltaTime;
         internal_pressure = Mathf.Clamp(internal_pressure, 0f, max_pressure * 2f);
     }

@@ -6,8 +6,8 @@ using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
-    public static float external_x;
-    public static float external_x_damp;
+    public float external_x;
+    public float external_x_damp;
 
     public static float horizontal_dir;
     public static float vertical_dir;
@@ -63,7 +63,8 @@ public class Player : MonoBehaviour
         horizontal_vel += external_x;
 
         if(Mathf.Abs(external_x) > 0) {
-            external_x -= Mathf.Sign(external_x) * external_x_damp * Time.deltaTime;
+            external_x = Mathf.MoveTowards(external_x, 0f, external_x_damp * Time.deltaTime);
+            //external_x -= Mathf.Sign(external_x) * external_x_damp * Time.deltaTime;
         }        
 
         rb.velocity = new Vector2(horizontal_vel, vertical_vel);
